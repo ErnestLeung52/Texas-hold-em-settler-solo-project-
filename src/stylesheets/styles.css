@@ -1,0 +1,154 @@
+.main-container {
+  background-image: linear-gradient(
+    to right top,
+    #051937,
+    #00385a,
+    #005b75,
+    #007e83,
+    #16a085
+  );
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.sub-container {
+  /* position: relative; */
+  overflow: auto;
+  background-color: rgba(255, 255, 255, 0.55);
+  margin: 5% 10%;
+  border-radius: 10px;
+}
+
+.input-container {
+  /* position: relative; */
+  margin: 5% 15%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.input-container h3 {
+  background-color: #007e83;
+  color: white;
+  padding: 1.5%;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-bottom: 0;
+}
+
+.input-form {
+  top: 10px;
+  padding-left: 15px;
+}
+
+.input-form input {
+  width: 160px;
+  height: 20px;
+  border-radius: 6px;
+  border: none;
+  margin: 10px;
+  background-color: #dddddd;
+}
+
+::placeholder {
+  color: darkgray;
+}
+
+.addButton {
+  height: 20px;
+  border-radius: 6px;
+  background-color: darkgray;
+  color: white;
+  text-align: center;
+  border: none;
+}
+
+.addButton:hover {
+  background-color: #007e83;
+  color: white;
+}
+
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 13px;
+  background-color: white;
+}
+
+.styled-table thead tr {
+  background-color: #007e83;
+  color: #ffffff;
+  text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+  text-align: center;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+  /* border-bottom: 2px solid #009879; */
+  border-bottom: none;
+}
+
+.styled-table tr:first-child th:first-child {
+  border-top-left-radius: 10px;
+}
+
+/* top-right border-radius */
+table tr:first-child th:last-child {
+  border-top-right-radius: 10px;
+}
+
+/* bottom-left border-radius */
+table tr:last-child td:first-child {
+  border-bottom-left-radius: 10px;
+}
+
+/* bottom-right border-radius */
+table tr:last-child td:last-child {
+  border-bottom-right-radius: 10px;
+}
+
+.deleteButton {
+  border-radius: 3px;
+  background-color: #fd4731;
+  color: white;
+  text-align: center;
+  border: none;
+  padding: 3px 5px;
+}
+
+.checked {
+  background-color: #005b75;
+  text-align: center;
+  margin: 5% 20%;
+  border-radius: 10px;
+  color: white;
+  padding: 8px;
+}
+.failed {
+  background-color: #fd4731;
+  text-align: center;
+  margin: 5% 20%;
+  border-radius: 10px;
+  color: white;
+  padding: 8px;
+}
